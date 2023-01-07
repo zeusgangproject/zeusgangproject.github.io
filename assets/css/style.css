@@ -4646,3 +4646,210 @@ input[type="radio"]:checked ~ label {
 .contact-form-inn form .form-action{
     text-align: center
 }
+
+/* ----- STAFF SECTION ----- */
+.main-section .staff-section {
+    height: auto;
+    background-color: var(--section-bg);
+}
+
+.staff-section .staff-section-inner {
+    padding: 30px 50px;
+}
+
+.side-menu-holder {
+    width: 100%;
+    max-width: 400px;
+}
+
+.side-menu-selection {
+    font-family: 'Minecraft', sans-serif;
+    background-color: #080811;
+    padding: 1em;
+    margin-bottom: 55px;
+    font-size: 2em;
+}
+
+.sticky {
+    margin-top: 25px;
+    position: fixed;
+    top: 0;
+    width: inherit;
+    max-width: inherit;
+}
+
+.sticky-bottom {
+    margin-bottom: 150px;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    max-width: inherit;
+}
+
+.side-menu-selection li {
+    float: none;
+}
+
+.side-menu-selection li a:hover {
+    color: #FFFFFF;
+}
+
+.side-menu-selection li .active {
+    background-color: var(--founder) !important;
+}
+
+.side-menu-selection .founder a:hover {
+    background-color: var(--founder) !important;
+}
+
+.side-menu-selection .media-founder a:hover {
+    background-color: var(--media-founder) !important;
+}
+
+.side-menu-selection .designer a:hover {
+    background-color: var(--designer) !important;
+}
+
+.side-menu-selection .manager a:hover {
+    background-color: var(--manager) !important;
+}
+
+.side-menu-selection .admin a:hover {
+    background-color: var(--admin) !important;
+}
+
+.side-menu-selection .senior-mod a:hover {
+    background-color: var(--senior-mod) !important;
+}
+
+.side-menu-selection .interviewer a:hover {
+    background-color: var(--interviewer) !important;
+}
+
+.side-menu-selection .tester a:hover {
+    color: var(--black) !important;
+    background-color: var(--tester) !important;
+}
+
+.side-menu-selection .partner a:hover {
+    background-color: var(--partner) !important;
+}
+
+.side-menu-selection .famous a:hover {
+    background-color: var(--famous) !important;
+}
+
+.side-menu-selection .media {
+    margin-top: 0 !important;
+}
+
+.side-menu-selection .media a:hover {
+    background-color: var(--media) !important;
+}
+
+.staff-panel-heading > .founder {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--founder);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .media-founder {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--media-founder);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .designer {
+    margin: 0px 0px 25px 0px;
+    font-family: 'Minecraft', sans-serif;
+    border-left: 15px solid var(--designer);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .manager {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--manager);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .admin {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--admin);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .senior-mod {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--senior-mod);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .interviewer {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--interviewer);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .tester {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--tester);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .partner {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--partner);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .famous {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--famous);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading > .media {
+    margin: 0px 0px 25px 0px;
+    border-left: 15px solid var(--media);
+    padding: 25px 50px;
+}
+
+.staff-panel-heading .staff-title {
+    font-family: 'Minecraft', sans-serif;
+    text-transform: uppercase;
+    color: var(--post-title);
+    font-size: 2em;
+}
+
+.staff-panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    padding: 0px 30px;
+}
+
+.staff-panel .staff-name {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.staff-name span {
+    color: var(--text);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.staff-member {
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+.staff-member img {
+    transition: ease-in 0.2s;
+}
+
+.staff-member img:hover {
+    transform: scale(1.1);
+}
