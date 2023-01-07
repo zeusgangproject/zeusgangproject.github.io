@@ -2450,8 +2450,8 @@ span.is-active {
 .filter_input {
     background: #080811 none repeat scroll 0 0;
     border: medium none;
-    width: 100%;
-    height: 45px;
+    width: 260px;
+    height: 55px;
     padding: 5px 15px;
     border-radius: 5px;
     color: #999
