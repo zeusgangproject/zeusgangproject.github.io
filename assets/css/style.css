@@ -5467,3 +5467,18 @@ input[type="radio"]:checked ~ label {
         display: none;
     }
 }
+#copyright {
+    float: left;
+}
+#disqus_thread {
+     position: relative;
+}
+#disqus_thread:after {
+     content: "";
+     display: block;
+     height: 55px;
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+     background: #0d0e1b;
+}
