@@ -128,7 +128,7 @@ h6 {
 a {
     -webkit-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    color: #6b739c;;
+    color: #ff7a21;;
     text-decoration: none
 }
 
@@ -2504,7 +2504,7 @@ span.is-active {
 }
 
 .filter_range div:first-child:after {
-    content: 'â€“';
+    content: '–';
     position: absolute;
     display: block;
     left: 100%;
